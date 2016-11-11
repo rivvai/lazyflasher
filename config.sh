@@ -13,8 +13,8 @@ boot_block=
 # only gzip, lz4, lzo, and bzip2 are supported
 ramdisk_compression=
 # if you enable this, you will need to add /data mounting to the update-binary script
-# boot_backup=/data/local/boot-backup.img
 
+boot_backup=/data/local/boot-backup.img
 bin=$tmp/tools
 ramdisk=$tmp/ramdisk
 ramdisk_patch=$ramdisk-patch
